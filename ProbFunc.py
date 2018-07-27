@@ -1,6 +1,9 @@
 from functools import reduce
 from pandas import read_csv
-from math import ceil
+from math import ceil, sqrt
+
+# adicionada a função variancia, desvioPadrao, coeficienteVariacao
+# 
 
 def getData(index):
    return tuple(read_csv("Janeiro.csv", sep=";").iloc[:, index])
@@ -19,9 +22,18 @@ def moda(vetor, quantidade=0, retorno=0, i=0):
    elif (vetor.count(vetor[i]) > quantidade): 
       return moda(vetor, vetor.count(vetor[i]), vetor[i], i + 1)
    else: return moda(vetor, quantidade, retorno, i + 1)
-   
-def amplitude(vetor):
+
+def amplitude (vetor):
    return max(vetor) - min(vetor)
 
 def desvioMedioAbsoluto(vetor):
    return sum(map(lambda x: abs(x - media(vetor)), vetor)) / (len(vetor))
+
+def variancia(vetor):
+   return sum(map(lambda x: pow((x - media(vetor)), 2), vetor)) / (len(vetor))
+
+def desvioPadrao(vetor):
+   return sqrt(variancia(vetor))
+
+def coeficienteVariacao(vetor):
+   return desvioPadrao(vetor) / media(vetor)
