@@ -102,7 +102,7 @@ ENV/
 
 # pipenv
 *.lock
-./Pipfile
+Pipfile
 
 # vscode
 .vscode/

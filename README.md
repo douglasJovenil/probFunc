@@ -2,7 +2,7 @@
 
 <h1 align="center">Probabilistic Functional</h1>
 
-<p style="text-indent: 5%; text-align: justify">This repository has the purpose of implement probabilistic and statistical functions using concepts of functional programming at python. The book used as support material is: *DOWNING, Douglas; CLARK, Jeffrey. Estatística aplicada. 3. ed. São Paulo: Saraiva, 2010*.</p>
+This repository has the purpose of implement probabilistic and statistical functions using concepts of functional programming at python. The book used as support material is: **DOWNING, Douglas; CLARK, Jeffrey. Estatística aplicada. 3. ed. São Paulo: Saraiva, 2010**.
 
 ## Requeriments
 ![numpy](https://img.shields.io/badge/Numpy-%E2%89%A51.12.0-brightgreen.svg)
