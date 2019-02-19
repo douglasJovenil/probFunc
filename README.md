@@ -5,6 +5,7 @@
 This repository has the purpose of implement probabilistic and statistical functions using concepts of functional programming at python. The book used as support material is: **DOWNING, Douglas; CLARK, Jeffrey. Estatística aplicada. 3. ed. São Paulo: Saraiva, 2010**.
 
 ## Requeriments
+![pandas](https://img.shields.io/badge/pandas-0.24.1-brightgreen.svg)
 ![numpy](https://img.shields.io/badge/Numpy-%E2%89%A51.12.0-brightgreen.svg)
 ![python-dateutil](https://img.shields.io/badge/python_dateutil-%E2%89%A52.5.0-brightgreen.svg)
 ![six](https://img.shields.io/badge/six-%E2%89%A51.5-brightgreen.svg)
