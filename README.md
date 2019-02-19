@@ -11,12 +11,14 @@ This repository has the purpose of implement probabilistic and statistical funct
 ![pytz](https://img.shields.io/badge/pytz-%E2%89%A52011k-brightgreen.svg)
 
 ## Setup
-`$ pip install -r requeriments.txt`
+```Bash
+$ pip install -r requeriments.txt
+```
 
 ## Methods
 The struct of this section is:
 
-```bash
+```Python
 Some explanation / math definitions
 # Params
 methodSyntax()
