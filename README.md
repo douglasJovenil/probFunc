@@ -105,7 +105,7 @@ standardDeviation(vector)
 ### [`coefficientVariation`](https://github.com/douglasJovenil/probFunc/blob/5da82801d47511168590cdae7afcad085c20bad7/src/ProbFunc.py#L35)
 Measures the dispersion in relation to the mean.
 
-![coefficientVariation](https://latex.codecogs.com/gif.latex?coefficientVartion&space;=&space;\frac{standardDeviation}{mean}&space;=&space;\frac{\sigma}{\overline{x}})
+![coefficientVariation](https://latex.codecogs.com/gif.latex?coefficientVariation&space;=&space;\frac{standardDeviation}{mean}&space;=&space;\frac{\sigma}{\overline{x}})
 ```Python
 # vector: data vector to extract the coefficientVariation
 coefficientVariation(vector)
